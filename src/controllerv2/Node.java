@@ -25,7 +25,7 @@ class Node {
     private final ArrayList<Value> values;
     private Node father;
     private String relation;
-    private ArrayList<Node> childrens;
+    private final ArrayList<Node> childrens;
         
     /**
      * Factoría para la creación del Nodo. Solo requiere de un nombre.
